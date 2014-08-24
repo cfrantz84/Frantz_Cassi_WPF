@@ -1,6 +1,6 @@
 // Conditionals_Wacky
 
-//
+// 
 var a = prompt("")
 if(""){
 	prompt("You forgot to put something!")
