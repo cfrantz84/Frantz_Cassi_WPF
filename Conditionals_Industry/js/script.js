@@ -12,7 +12,7 @@ if(""){
 }else{
 }
 
-//
+//Are you making more than the average pay for web designers?
 if(hourlyPay * hoursWorked * 4 * 12 > 63549){
 	alert("You are making more than average pay!")
 	console.log("You are making more than average pay!");
