@@ -2,7 +2,11 @@
 
 //Calculate weight loss
 
-function calcWeight (){
-	var goalWeight = prompt("What is your goal weight?");
-	var currentWeight = prompt("What is your current weight?");
+function calcWeight (weightLost){
+	var goalWeight = (140);
+	var currentWeight = (175);
+	var weightLost = (currentWeight - goalWeight);
+	console.log("You have lost " + weightLost + " pounds!");
 }
+calcWeight();
+
