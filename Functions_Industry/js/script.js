@@ -11,6 +11,7 @@ function profit (){
 }
 profit(revenueEarned - revenueSpent);
 
+
 //Must meet goal of 2000 to create new site.
 if(profit > 2000){
 	console.log("You can make a new site!");
